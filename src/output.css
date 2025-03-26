@@ -219,6 +219,9 @@
   .mt-\[64px\] {
     margin-top: 64px;
   }
+  .mt-\[80px\] {
+    margin-top: 80px;
+  }
   .mt-\[84px\] {
     margin-top: 84px;
   }
@@ -276,8 +279,14 @@
   .w-\[50\%\] {
     width: 50%;
   }
+  .w-\[50\] {
+    width: 50;
+  }
   .w-\[60\%\] {
     width: 60%;
+  }
+  .w-\[250px\] {
+    width: 250px;
   }
   .w-\[299px\] {
     width: 299px;
@@ -297,14 +306,35 @@
   .w-\[px\] {
     width: px;
   }
+  .max-w-3 {
+    max-width: calc(var(--spacing) * 3);
+  }
+  .max-w-4 {
+    max-width: calc(var(--spacing) * 4);
+  }
   .max-w-5xl {
     max-width: var(--container-5xl);
+  }
+  .max-w-6 {
+    max-width: calc(var(--spacing) * 6);
+  }
+  .max-w-\[100px\] {
+    max-width: 100px;
   }
   .max-w-\[200px\] {
     max-width: 200px;
   }
   .max-w-\[530px\] {
     max-width: 530px;
+  }
+  .max-w-\[601px\] {
+    max-width: 601px;
+  }
+  .max-w-\[610px\] {
+    max-width: 610px;
+  }
+  .min-w-\[100px\] {
+    min-width: 100px;
   }
   .flex-grow {
     flex-grow: 1;
@@ -345,6 +375,12 @@
   .justify-between {
     justify-content: space-between;
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
+  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -353,6 +389,18 @@
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
+  }
+  .gap-\[0px\] {
+    gap: 0px;
+  }
+  .gap-\[3px\] {
+    gap: 3px;
+  }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
   }
   .gap-\[30px\] {
     gap: 30px;
@@ -365,6 +413,9 @@
   }
   .gap-\[200px\] {
     gap: 200px;
+  }
+  .gap-\[px\] {
+    gap: px;
   }
   .rounded-\[5px\] {
     border-radius: 5px;
@@ -457,6 +508,14 @@
   }
   .text-\[400px\] {
     font-size: 400px;
+  }
+  .font-\[00\] {
+    --tw-font-weight: 00;
+    font-weight: 00;
+  }
+  .font-\[400\] {
+    --tw-font-weight: 400;
+    font-weight: 400;
   }
   .font-\[600\] {
     --tw-font-weight: 600;
@@ -573,6 +632,20 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-primary);
+      }
+    }
+  }
+  .hover\:text-\[bg-\] {
+    &:hover {
+      @media (hover: hover) {
+        color: bg-;
+      }
+    }
+  }
+  .hover\:text-\[bg-primary\] {
+    &:hover {
+      @media (hover: hover) {
+        color: bg-primary;
       }
     }
   }
