@@ -1,0 +1,16 @@
+@font-face {
+    font-family: init;
+    src: url("./assets/fonts/Lato-Regular.ttf");
+}
+@import "tailwindcss";
+
+.container {
+  max-width: 1152px;
+}
+
+@theme {
+  --color-primary: #4CAF4F;
+  --color-secondary: #F5F7FA;
+  --color-laylo: red;
+  --font-roboto: Roboto,  "sa./assets/fonts/Lato-Regular.ttfns-serif";
+}
